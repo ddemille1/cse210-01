@@ -42,7 +42,7 @@ def check_available(board, choice):
     available = True
     index = choice -1
     position = board[index]
-    if position == ("X" or "O"):
+    if position == "X" or position == "O":
         print("That square is taken. Please choose another square")
         available = False
         return available
