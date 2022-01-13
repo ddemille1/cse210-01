@@ -1,4 +1,6 @@
 #Tic-Tac-Toe game 
+#CSE 210 week 2 Assignment
+#Doug DeMille
 
 def main():
     win = False
